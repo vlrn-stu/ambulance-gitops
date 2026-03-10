@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: v-ambulance-ufe
+spec:
+  frontendClass: md-shell
+  service:
+    name: v-ambulance-ufe
+  modulePath: build/ambulance-ufe.esm.js
